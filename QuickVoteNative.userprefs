@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="QuickVoteNative/QuickVote.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QuickVoteNative" expanded="True" selected="True">
+            <Node name="QuickVote.Droid" expanded="True" />
+            <Node name="QuickVote.Shared" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ian/Developer/QuickVoteNative/QuickVoteNative/Activities/MainActivity.cs" line="287" column="1" />
+      <Breakpoint file="/Users/ian/Developer/QuickVote/QuickVoteNative/Fragments/VoteFragment.cs" line="160" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="QuickVoteNative/MainActivity.cs" line="43" offsetX="573" offsetY="630" expression="keyhash" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <DisabledProjects>
+    <String>QuickVote.iOS/QuickVote.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.QuickVote.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

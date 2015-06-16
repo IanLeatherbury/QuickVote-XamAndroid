@@ -1,0 +1,7 @@
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/obj/unified/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/obj/unified/iPhoneSimulator/Debug/Default-568h@2x.png
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/bin/unified/iPhoneSimulator/Debug/Sample.exe.mdb
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/bin/unified/iPhoneSimulator/Debug/Sample.exe
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/obj/unified/iPhoneSimulator/Debug/Sample.exe
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/obj/unified/iPhoneSimulator/Debug/Sample.exe.mdb
+/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/bin/unified/iPhoneSimulator/Debug/FlyoutNavigation.dll

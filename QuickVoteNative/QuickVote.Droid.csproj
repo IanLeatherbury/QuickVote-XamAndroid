@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{A1FB7A02-FC17-4725-8551-3D62518BA691}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>QuickVoteNative</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>QuickVoteNative</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Mono.Android.Export" />
+    <Reference Include="Xamarin.Controls.BarChart.Android">
+      <HintPath>..\Components\barchart-1.1.2.1\lib\android\Xamarin.Controls.BarChart.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="com.refractored.monodroidtoolkit">
+      <HintPath>..\packages\MonoDroid.Toolkit.1.1.0.0\lib\MonoAndroid10\com.refractored.monodroidtoolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Akavache">
+      <HintPath>..\packages\akavache.core.4.1.1\lib\MonoAndroid\Akavache.dll</HintPath>
+    </Reference>
+    <Reference Include="Akavache.Sqlite3">
+      <HintPath>..\packages\akavache.sqlite3.4.1.1\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.Sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Components\azure-mobile-services-1.3.1\lib\android\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.6.2\lib\monoandroid\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.Ext">
+      <HintPath>..\Components\azure-mobile-services-1.3.1\lib\android\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile">
+      <HintPath>..\Components\azure-mobile-services-1.3.1\lib\android\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\Components\azure-mobile-services-1.3.1\lib\android\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\Components\azure-mobile-services-1.3.1\lib\android\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Facebook">
+      <HintPath>..\packages\Xamarin.Facebook.4.0.1.4\lib\MonoAndroid40\Xamarin.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Refractored.PagerSlidingTabStrip">
+      <HintPath>..\packages\Refractored.PagerSlidingTabStrip.1.0.9.2\lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\packages\Xamarin.Insights.1.10.1.109\lib\MonoAndroid10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Fragments\MyPollsFragment.cs" />
+    <Compile Include="Fragments\CommunityFragment.cs" />
+    <Compile Include="FacebookLoginActivity.cs" />
+    <Compile Include="Fragments\BrowseFragment.cs" />
+    <Compile Include="Fragments\ProfileFragment.cs" />
+    <Compile Include="Adapters\MonkeyAdapter.cs" />
+    <Compile Include="Adapters\FriendsAdapter.cs" />
+    <Compile Include="Adapters\Util.cs" />
+    <Compile Include="Helpers\MyActionBarDrawerToggle.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\FriendActivity.cs" />
+    <Compile Include="Activities\BaseActivity.cs" />
+    <Compile Include="Helpers\SquareImageView.cs" />
+    <Compile Include="Fragments\NewPollFragment.cs" />
+    <Compile Include="Fragments\FriendsFragment.cs" />
+    <Compile Include="Fragments\FriendsRecentFragment.cs" />
+    <Compile Include="Fragments\MyProfileFragment.cs" />
+    <Compile Include="Adapters\UserAdapter.cs" />
+    <Compile Include="Adapters\CommunityAdapter.cs" />
+    <Compile Include="ImageLoader\FileCache.cs" />
+    <Compile Include="ImageLoader\ImageLoader.cs" />
+    <Compile Include="ImageLoader\MemoryCache.cs" />
+    <Compile Include="Adapters\ImageLoaderAdapter.cs" />
+    <Compile Include="Activities\ResultActivity.cs" />
+    <Compile Include="Fragments\PollCommentFragment.cs" />
+    <Compile Include="Adapters\PollCommentAdapter.cs" />
+    <Compile Include="Activities\VoteActivity.cs" />
+    <Compile Include="Fragments\VoteFragment.cs" />
+    <Compile Include="Adapters\VoteAdapter.cs" />
+    <Compile Include="ImageLoader\CommentLoader.cs" />
+    <Compile Include="Adapters\CommentLoaderAdapter.cs" />
+    <Compile Include="AkavacheSqliteLinkerOverride.cs" />
+    <Compile Include="Activities\CommentActivity.cs" />
+    <Compile Include="Activities\MyLoginActivity.cs" />
+    <Compile Include="Activities\Test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
+    <None Include="Fragments\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\navigationDrawer_activity.axml" />
+    <AndroidResource Include="Resources\menu\navigation_drawer.axml" />
+    <AndroidResource Include="Resources\layout\toolbar.axml" />
+    <AndroidResource Include="Resources\layout\page_home_view.axml" />
+    <AndroidResource Include="Resources\layout\item_menu.axml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\layout\fragment_friends.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\layout\fragment_browse.axml" />
+    <AndroidResource Include="Resources\values\integers.xml" />
+    <AndroidResource Include="Resources\menu\refresh.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_menu_refresh.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_menu_refresh.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_menu_refresh.png" />
+    <AndroidResource Include="Resources\layout\fragment_profile.axml" />
+    <AndroidResource Include="Resources\layout\item_monkey.axml" />
+    <AndroidResource Include="Resources\layout\page_friend.axml" />
+    <AndroidResource Include="Resources\layout\fragment_friends_all.axml" />
+    <AndroidResource Include="Resources\layout\fragment_friends_recent.axml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\Values-land\dimens.xml" />
+    <AndroidResource Include="Resources\Values-land\integers.xml" />
+    <AndroidResource Include="Resources\layout\page_login.axml" />
+    <AndroidResource Include="Resources\drawable-mdpi\fbLogin.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\fbLogin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fbLogin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\greenx.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\greenx.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\greenx.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\greenx.png" />
+    <AndroidResource Include="Resources\layout\profile_pic_item.axml" />
+    <AndroidResource Include="Resources\layout\CommunityListItem.axml" />
+    <AndroidResource Include="Resources\layout\friend.axml" />
+    <AndroidResource Include="Resources\layout\page_result_activity.axml" />
+    <AndroidResource Include="Resources\layout\page_vote_activity.axml" />
+    <AndroidResource Include="Resources\layout\fragment_vote_public.axml" />
+    <AndroidResource Include="Resources\layout\item_cast_vote.axml" />
+    <AndroidResource Include="Resources\drawable\dinner.png" />
+    <AndroidResource Include="Resources\drawable\mountain.jpg" />
+    <AndroidResource Include="Resources\drawable\picnic.jpg" />
+    <AndroidResource Include="Resources\drawable\space.jpg" />
+    <AndroidResource Include="Resources\layout\fragment_community.axml" />
+    <AndroidResource Include="Resources\drawable\mountain_rev.png" />
+    <AndroidResource Include="Resources\layout\fragment_my_polls.axml" />
+    <AndroidResource Include="Resources\layout\fragment_new_poll.axml" />
+    <AndroidResource Include="Resources\layout\fragment_my_profile.axml" />
+    <AndroidResource Include="Resources\layout\fragment_poll_comment.axml" />
+    <AndroidResource Include="Resources\layout\comment.axml" />
+    <AndroidResource Include="Resources\drawable\my_rect.axml" />
+    <AndroidResource Include="Resources\drawable-mdpi\comment2x.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\chat.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_thumbsup.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_thumbsup.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_thumbsup.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_thumbsup.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_chatbubble.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_chatbubble.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_chatbubble.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_chatbubble.png" />
+    <AndroidResource Include="Resources\menu\results.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\layout\page_comment_activity.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_android_send.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_android_send.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_android_send.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_android_send.png" />
+    <AndroidResource Include="Resources\layout\login_facebook.axml" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\layout\test_layout.axml" />
+  </ItemGroup>
+  <Import Project="..\QuickVote.Shared\QuickVote.Shared.projitems" Label="Shared" Condition="Exists('..\QuickVote.Shared\QuickVote.Shared.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <Import Project="..\packages\SQLitePCL.raw_basic.0.8.0\build\MonoAndroid\SQLitePCL.raw_basic.targets" Condition="Exists('..\packages\SQLitePCL.raw_basic.0.8.0\build\MonoAndroid\SQLitePCL.raw_basic.targets')" />
+  <ItemGroup>
+    <XamarinComponentReference Include="barchart">
+      <Version>1.1.2.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="azure-mobile-services">
+      <Version>1.3.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="facebookandroid">
+      <Version>4.0.1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fragments\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Activities\" />
+    <Folder Include="Resources\Values-land\" />
+    <Folder Include="ImageLoader\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\animation\" />
+  </ItemGroup>
+</Project>

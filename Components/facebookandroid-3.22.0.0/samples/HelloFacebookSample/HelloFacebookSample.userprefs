@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="HelloFacebookSample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloFacebookSampleActivity.cs">
+    <Files>
+      <File FileName="HelloFacebookSampleActivity.cs" Line="80" Column="80" />
+      <File FileName="Resources/values/strings.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../QuickVoteNative/MainActivity.cs" line="43" offsetX="573" offsetY="630" expression="keyhash" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.HelloFacebookSample MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

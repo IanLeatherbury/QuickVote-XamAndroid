@@ -1,0 +1,5 @@
+/Users/ian/Developer/QuickVoteNative/Components/PagerSlidingTabStrip-1.0.1/samples/PSTSSample/bin/Debug/Sample.dll
+/Users/ian/Developer/QuickVoteNative/Components/PagerSlidingTabStrip-1.0.1/samples/PSTSSample/packages/Refractored.PagerSlidingTabStrip.1.0.1/lib/MonoAndroid10/Refractored.PagerSlidingTabStrip.dll
+/Users/ian/Developer/QuickVoteNative/Components/PagerSlidingTabStrip-1.0.1/samples/PSTSSample/packages/Xamarin.Android.Support.v4.21.0.3.0/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+/Users/ian/Developer/QuickVoteNative/Components/PagerSlidingTabStrip-1.0.1/samples/PSTSSample/packages/Xamarin.Android.Support.v7.AppCompat.21.0.3.0/lib/MonoAndroid403/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/ian/Developer/QuickVoteNative/Components/PagerSlidingTabStrip-1.0.1/samples/PSTSSample/packages/Xamarin.Android.Support.v7.CardView.21.0.3.0/lib/MonoAndroid403/Xamarin.Android.Support.v7.CardView.dll

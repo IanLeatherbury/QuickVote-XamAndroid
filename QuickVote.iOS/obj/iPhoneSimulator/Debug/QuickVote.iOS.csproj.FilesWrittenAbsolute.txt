@@ -1,0 +1,14 @@
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/ibtool/MainViewController_iPhone.nib
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/ibtool/MainViewController_iPad.nib
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/community.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/community@2x.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/myPolls.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/myPolls@2x.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/newPoll.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/newPoll@2x.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/hamburger.png
+/Users/ian/Developer/QuickVote/QuickVote.iOS/obj/iPhoneSimulator/Debug/hamburger@2x.png

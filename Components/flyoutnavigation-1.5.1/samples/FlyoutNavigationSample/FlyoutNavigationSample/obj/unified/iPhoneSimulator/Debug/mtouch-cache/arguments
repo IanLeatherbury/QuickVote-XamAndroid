@@ -1,0 +1,35 @@
+# Version: 8.6.0.51 (dfb682f)
+# [first argument, ignore] # /Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.0.51/bin/mtouch-64 \
+	--cache \
+	/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/obj/unified/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/bin/unified/iPhoneSimulator/Debug/Sample.app \
+	--executable \
+	Sample \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.1 \
+	--targetver \
+	5.2 \
+	--abi=i386 \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
+	../../../lib//ios-unified/FlyoutNavigation.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	../../../lib//ios-unified/FlyoutNavigation.dll \
+	/Users/ian/Developer/QuickVoteNative/Components/flyoutnavigation-1.5.1/samples/FlyoutNavigationSample/FlyoutNavigationSample/bin/unified/iPhoneSimulator/Debug//Sample.exe \

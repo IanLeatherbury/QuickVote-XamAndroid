@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comment_fragment"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@color/white">
+    <ListView
+        android:id="@+id/android:commentList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/clouds"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:divider="@color/white" />
+    <TextView
+        android:id="@+id/emptyViewComment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/clouds"
+        android:text="Be the first to comment!"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal">
+            <EditText
+                android:id="@+id/enter_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Leave a comment..."
+                android:background="@color/white"
+                android:padding="5dp"
+                android:focusable="true"
+                android:textColor="@android:color/darker_gray"
+                android:imeOptions="actionDone" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/post_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_toRightOf="@id/enter_comment"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_android_send"
+            android:background="@color/white"
+            android:paddingRight="2dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+﻿<Properties StartupItem="HelloFacebookSample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.19" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../QuickVoteNative/Activities/MyLoginActivity.cs">
+    <Files>
+      <File FileName="HelloFacebookSampleActivity.cs" Line="281" Column="22" />
+      <File FileName="HelloFacebookBroadcastReceiver.cs" Line="1" Column="1" />
+      <File FileName="../../../../QuickVoteNative/Activities/MainActivity.cs" Line="102" Column="15" />
+      <File FileName="../../../../QuickVoteNative/Activities/MyLoginActivity.cs" Line="235" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="HelloFacebookSample" expanded="True">
+            <Node name="Properties" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ian/Developer/QuickVoteNative/QuickVoteNative/Activities/MainActivity.cs" line="287" column="1" />
+      <Breakpoint file="/Users/ian/Developer/QuickVote/QuickVoteNative/Fragments/VoteFragment.cs" line="160" column="1" />
+      <Breakpoint file="/Users/ian/Developer/QuickVote/QuickVoteNative/Activities/MyLoginActivity.cs" line="235" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../QuickVoteNative/MainActivity.cs" line="43" offsetX="573" offsetY="630" expression="keyhash" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

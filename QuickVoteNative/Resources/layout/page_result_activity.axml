@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbarResult"
+        layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/white"
+                    android:gravity="top">
+                    <TextView
+                        android:id="@+id/poll_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Header!"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+                    <barchart.BarChartView
+                        android:id="@+id/barChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        min_value="1"
+                        bar_width="40"
+                        bar_offset="20"
+                        bar_color="#2c3e50"
+                        bar_caption_fontSize="40"
+                        bar_caption_innerColor="#ecf0f1"
+                        bar_caption_outerColor="#2c3e50"
+                        android:layout_gravity="center"
+                        android:layout_below="@id/poll_header"
+                        android:background="@color/white" />
+                    <RelativeLayout
+                        android:id="@+id/relative_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/barChart">
+                    <!--                    Option 1-->
+                        <TextView
+                            android:id="@+id/option1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1: The first option"
+                            android:paddingTop="5dp" />
+                        <TextView
+                            android:id="@+id/option1Percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/option1"
+                            android:text="37%"
+                            android:textColor="@color/material_green_A200"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp" />
+                    <!--                        Option 2-->
+                        <TextView
+                            android:id="@+id/option2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2: The second option"
+                            android:paddingTop="5dp"
+                            android:layout_below="@id/option1" />
+                        <TextView
+                            android:id="@+id/option2Percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/option2"
+                            android:text="34%"
+                            android:textColor="@android:color/holo_red_light"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:layout_below="@id/option1Percent" />
+                    <!--                        Option 3-->
+                        <TextView
+                            android:id="@+id/option3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3: The third option"
+                            android:paddingTop="5dp"
+                            android:layout_below="@id/option2" />
+                        <TextView
+                            android:id="@+id/option3Percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/option3"
+                            android:text="9%"
+                            android:textColor="@android:color/holo_red_light"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:layout_below="@id/option2Percent" />
+                    <!--                        Option 4-->
+                        <TextView
+                            android:id="@+id/option4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4: The fourth option"
+                            android:paddingTop="5dp"
+                            android:layout_below="@id/option3" />
+                        <TextView
+                            android:id="@+id/option4Percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/option4"
+                            android:text="20%"
+                            android:textColor="@android:color/holo_red_light"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:layout_below="@id/option3Percent" />
+                    <!--                        Likes, etc.-->
+                        <TextView
+                            android:id="@+id/likes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/option4"
+                            android:text="27 likes"
+                            android:paddingTop="5dp" />
+                        <LinearLayout
+                            android:id="@+id/linear_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_below="@id/likes">
+                            <Button
+                                android:id="@+id/like"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Like"
+                                android:gravity="center"
+                                android:textAllCaps="false"
+                                android:background="@color/white"
+                                android:textColor="@color/midnight_blue"
+                                android:drawableLeft="@drawable/ic_thumbsup" />
+                            <Button
+                                android:id="@+id/comment"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Comment"
+                                android:gravity="center"
+                                android:background="@color/white"
+                                android:textColor="@color/midnight_blue"
+                                android:textAllCaps="false"
+                                android:drawableLeft="@drawable/ic_chatbubble" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        <!--    Bottom Half of page-->
+            <LinearLayout
+                android:id="@+id/comment_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/standard_padding"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

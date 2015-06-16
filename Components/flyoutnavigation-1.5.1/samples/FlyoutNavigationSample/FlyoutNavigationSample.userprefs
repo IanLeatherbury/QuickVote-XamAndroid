@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="FlyoutNavigationSample/FlyoutNavigationSample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../QuickVote.iOS/MainViewController.cs">
+    <Files>
+      <File FileName="../../../../QuickVoteNative/Activities/MainActivity.cs" Line="25" Column="25" />
+      <File FileName="../../../../QuickVote.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="../../../../QuickVote.iOS/MainViewController.cs" Line="19" Column="19" />
+      <File FileName="FlyoutNavigationSample/MainController.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="FlyoutNavigationSample" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../QuickVoteNative/MainActivity.cs" line="43" offsetX="573" offsetY="630" expression="keyhash" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

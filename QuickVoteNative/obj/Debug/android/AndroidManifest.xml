@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="quickVote.QuickVote">
+  <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
+  <application android:label="QuickVote" android:theme="@style/MyTheme" android:name="mono.android.app.Application" android:debuggable="true">
+    <!--		<activity android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" /> -->
+    <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" />
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id" />
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id" />
+    <meta-data android:name="com.facebook.sdk.ApplicationName" android:value="QuickVote" />
+    <activity android:label="FacebookLoginActivity" android:name="md516550e6684bd9ffbf10e3c443378e907.FacebookLoginActivity" />
+    <activity android:icon="@drawable/icon" android:label="QuickVote" android:launchMode="singleTop" android:windowSoftInputMode="stateHidden|adjustUnspecified" android:name="md516550e6684bd9ffbf10e3c443378e907.MainActivity" />
+    <activity android:label="Friend" android:parentActivityName="md516550e6684bd9ffbf10e3c443378e907.MainActivity" android:name="md516550e6684bd9ffbf10e3c443378e907.FriendActivity">
+      <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="navdrawer.activities.HomeView" />
+    </activity>
+    <activity android:label="Here's your results!" android:name="md516550e6684bd9ffbf10e3c443378e907.ResultActivity" />
+    <activity android:label="VoteActivity" android:launchMode="singleTop" android:noHistory="true" android:name="md570d35fb84808f1453767eca3e55f56d4.VoteActivity" />
+    <activity android:label="Leave a comment..." android:name="md570d35fb84808f1453767eca3e55f56d4.CommentActivity" />
+    <activity android:label="QuickVote" android:windowSoftInputMode="stateUnspecified|adjustResize" android:name="md570d35fb84808f1453767eca3e55f56d4.MyLoginActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Test" android:theme="@style/Theme.AppCompat" android:name="md570d35fb84808f1453767eca3e55f56d4.Test" />
+    <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.WebAuthenticatorActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="quickVote.QuickVote.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.quickVote.QuickVote" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <permission android:name="android.permission.INTERNET" />
+  <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>
